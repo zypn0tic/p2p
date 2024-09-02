@@ -40,7 +40,6 @@ This project implements a simple Peer-to-Peer (P2P) file transfer system using P
 4. **Filedialog (`tkinter.filedialog`):** A submodule of Tkinter specifically used to create file selection and saving dialogs. It simplifies the process of interacting with the file system, allowing users to choose a file for sending or specify the location to save the received file.
 5. **Struct (`struct`):** Although not explicitly imported, it is implicitly used for converting file size to bytes and vice versa. This is done through the `to_bytes` and `from_bytes` methods for encoding and decoding integers.
 
-
 ## How to Use It
 
 1. Run `Sender.py` on the machine you want to send the file from.
@@ -57,16 +56,3 @@ This project implements a simple Peer-to-Peer (P2P) file transfer system using P
 3. **Error Handling:** Enhance error handling to provide better feedback to users in case of connection issues or file transfer failures.
 4. **Concurrency:** Use threading to handle multiple file transfers simultaneously.
 5. **Protocol Enhancements:** Design a custom protocol to support additional functionalities, such as resuming interrupted transfers or providing file metadata.
-
-## Note
-
-To gain a deeper understanding and clearer insights into the Peer-to-Peer File Transfer System, it is recommended to refer to the accompanying report and PowerPoint presentation. These supplementary materials provide a comprehensive overview, detailed explanations, and visual aids to enhance your comprehension of the project.
-
-## Contributors
-
-This Peer-to-Peer File Transfer System is brought to you by:
-
-
-<div> 
-<h2 align = 'right'> Thank You !! </h2>
-</div>
